@@ -19,10 +19,10 @@
 			margin-bottom: 20px;
 			padding: 0 15px;
 			padding-top: 65px;
-			background: url(../images/Futurelife-icon-megamenu.png)no-repeat scroll center 0;margin: 0 20px 20px 20px;
+			//background: url("../../../../../images/Futurelife-icon-megamenu.png")no-repeat scroll center 0;margin: 0 20px 20px 20px;
 			&:hover,&.active{
 				color: $brand-primary;
-				background-image:url(../images/Futurelife-icon-megamenu-hover2.png);
+				//background-image:url("../../../../../images/Futurelife-icon-megamenu-hover2.png");
 			}
 		}
 		li:nth-child(2){background-position: center -97px;}

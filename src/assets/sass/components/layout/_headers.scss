@@ -1,6 +1,6 @@
 /** 6.2.1. General **/
 #topbar{
-	background: url(../images/Futurelife-bg-topbar.png)repeat-x;height: 60px;display: inline-block;width: 100%;
+	//background: url("../../../../../images/Futurelife-bg-topbar.png")repeat-x;height: 60px;display: inline-block;width: 100%;
 	.topbar-left{		
 		display: inline-block;float: left;
 	}
@@ -275,7 +275,7 @@
 			%active_a{
 				background-color: $brand-primary !important;
 				color: #fff;
-				background-image: url(../images/Futurelife-icon-megamenu-hover1.png) !important;
+				//background-image: url("../../../../../images/Futurelife-icon-megamenu-hover1.png") !important;
 
 			}
 			&.active a{
@@ -288,13 +288,13 @@
 				height: 80px;
 				line-height: 80px;
 				padding: 0 0 0 50px;
-				background: url(../images/Futurelife-icon-megamenu.png)no-repeat scroll 50px 15px;
+				//background: url("../../../../../images/Futurelife-icon-megamenu.png")no-repeat scroll 50px 15px;
 				&:hover{
 					@extend %active_a
 				}
 			}
 			&:nth-child(2) a{
-				background-position: 50px -84px;;
+				background-position: 50px -84px;
 			}
 			&:nth-child(3) a{
 				background-position: 50px -185px;
@@ -592,7 +592,7 @@
 					cursor: pointer;
 					height: 23px;
 					width: 32px;
-					background: url(../images/Futurelife-icon-menu-mobile.png) no-repeat;
+					//background: url("../../../../../images/Futurelife-icon-menu-mobile.png") no-repeat;
 					&::before{
 						content:"";
 					}
@@ -654,7 +654,7 @@ nav.megamenu-v2.megamenu-home5{
 			margin-top: 10px;
 			height: 23px;
 			width: 32px;
-			background: url(../images/Futurelife-icon-menu-mobile.png) no-repeat;
+			//background: url("../../../../../images/Futurelife-icon-menu-mobile.png") no-repeat;
 			&::before{
 				content:"";
 			}
@@ -693,14 +693,14 @@ nav.megamenu-v2.megamenu-home5{
 		cursor: pointer;
 		&.active{
 			i{
-				background:url("../images/Futurelife--menu-mobile-active.png")no-repeat scroll center;
+				//background:url("../../../../../images/Futurelife--menu-mobile-active.png")no-repeat scroll center;
 			}
 		}
 		i{	
 			height: 23px;
 			width: 22px;
 			color: #888;
-			background:url("../images/Futurelife--menu-mobile.png")no-repeat;
+			//background:url("../../../../../images/Futurelife--menu-mobile.png")no-repeat;
 			&::before{
 				content:"";
 			}
