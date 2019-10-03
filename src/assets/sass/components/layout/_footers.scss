@@ -1,7 +1,7 @@
 /** 6.5.1. General **/
 #footer {
 	margin-top: 30px;display: inline-block;width: 100%;
-	//background: url("../../../../../images/Futurelife-bg-body.png") repeat;
+	background: url("/../../../../images/Futurelife-bg-body.png") repeat;
 	padding-top: 70px;
 	h3{
 		font-size: 18px;font-weight: 700;color: #555555;text-transform: uppercase;margin-bottom: 20px;line-height: 24px;
@@ -88,7 +88,7 @@
 #footer {
 	&.footer-v2 {
 		margin-top: 0px;
-		//background: url("../../../../../images/Futurelife-bg-newsletter-v2.png") repeat;
+		background: url("/../../../../images/Futurelife-bg-newsletter-v2.png") repeat;
 		.footer-bottom{
 			border-top: 1px solid #efe6ef;
 		}
